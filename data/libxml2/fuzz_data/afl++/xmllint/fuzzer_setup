@@ -1,0 +1,3 @@
+# environment variables:
+# command line:
+'/home/zym/桌面/AFLplusplus/afl-fuzz' '-i' '/home/zym/桌面/libxml2/in' '-o' '/home/zym/桌面/libxml2/outs/out-0' '-m' 'none' '-t' '10000' '-d' '--' '/home/zym/桌面/libxml2/xmllint' '--valid' '--recover' '@@'
